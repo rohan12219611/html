@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head> 
+    <title>Change password
+    </title>
+
+<style>
+body{
+background-image:linear-gradient(-45deg,dimgray,silver,black);
+background-size:cover;
+}
+table{
+background-image:linear-gradient(-45deg,black,silver,dimgray,black);
+padding: 20px;
+width:575px;
+margin:20px 500px;
+font-size:20px;
+color:white;
+font-family:Serif;
+border-radius:20px;
+
+}
+input{
+width=100%;
+padding:5px;
+margin-top:20px;
+font-size:16px;
+font-family:Serif;
+border:none;
+}
+input[type=submit]{
+width=25%;
+margin-left:150px;
+background: rgba(192, 192, 192, 0.862);
+color:black;
+border:2px solid white;
+padding:10px;
+border-radius:10px;;
+font-size:15px;
+}
+mark {
+  background-color:rgba(211, 211, 211, 0.943);
+  color: black;
+  font-size:30px;
+font-family:Serif;
+font-style:normal;	
+}
+</style>
+
+</head>
+<body>
+<a href="https://www.lpu.in/">
+<img src="ums_logo.png" width =360px height= 70px style="margin:50px 500px"></a>
+
+
+<form method="get" name="SIGNIN" action="home.html" onsubmit="return validation()">
+<table align="right">
+
+<tr>
+<th><mark style="border:2px solid black; border-radius:5px;">Change Password</mark></th></tr>
+<tr>
+<th>Old Password</th>
+<td><input type="text" placeholders="kkkk" name="uid" color="white" maxlength="30" required/></td>
+</tr>
+<tr>
+<th>New Password</th>
+<td><input type="password" name="pwd" required/></td>
+</tr>
+<tr>
+<th color="white">New Password(enter again)</th>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" value="Change Password" required/></td></tr>
+</form></table>
+
+<!--Javascript-->
+<script type="text/javascipt">
+function validation()
+{ var uid=document.SIGNIN.uid.value;
+  var pwd=document.SIGNIN.pwd.value;
+//check empty fields
+if(pwd=="" || uid=="")
+{  alert("both field should not be blank");
+   return;
+}
+</script>
+
+</body>
+</html>

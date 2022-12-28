@@ -1,0 +1,746 @@
+<!doctype html>
+<html>
+  <head> 
+    <title>University Management System- Home </title>
+   <style>
+   
+   /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dimgray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+background-image: linear-gradient(blue,royalblue);
+  color:black;
+  width=40%;
+  border-radius:10px;
+  border:1px solid white;
+}
+
+li {
+  float: left;
+  border-right:1px solid black;
+
+}
+li:last-child {
+  border-right: none;
+}
+
+li.a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.a:hover, .dropdown:hover .dropbtn {
+  background-color: gold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow:white;
+ 
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: gold;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+figure {
+  display: table;
+}
+figcaption {
+  display: table-caption;
+  caption-side: right;
+  background-color:silver;
+  width:195px;
+  margin-top:20px;
+  border-radius:7px;
+}
+table#t4{                             <!--Styling Top bar -->
+     padding:0px;
+     width:100%;
+     background-image: linear-gradient(blue,royalblue);
+     border-radius:15px;
+     border:2px solid black;
+     margin:2px 2px;
+     }
+body{
+     background-image:url("bg.jpg");
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 3px solid blue;
+  background-color: white;
+  align:top;
+  width:1224px;
+  border-radius:10px;
+  float:right;
+  margins:auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid black;
+  border-top: none;
+background-color:white;
+  width:1200px;
+  border-radius:10px;
+}
+
+#myProgress {
+  width: 1100px;
+  background-color: silver;
+}
+
+#myBar {
+ 
+  height: 30px;
+  background-color: rgb(128, 0, 0);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+table#a1{
+	background-color:dimgray;
+	color:white;
+
+
+}
+
+
+
+/* Style the tab */
+.tab1 {
+  overflow: hidden;
+  border: 3px solid blue;
+  background-color:white;
+  border-radius:10px;
+  margin-top:35px;
+}
+
+/* Style the buttons inside the tab */
+.tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab1 button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent1 {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid black;
+  border-top: none;
+  overflow-y:scroll;
+   height:275px;
+   display:block;
+  border-radius:20px;
+  background-color:white;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+ <ul >
+       <li class="dropdown">
+	<a href="https://www.lpu.in/" class="dropbtn"><img src="logo1.png" height="70" width="150"  alt="Logo" ></a></li>
+
+
+
+       <li class="dropdown" style="background-color:white; border-radius:7px;  margin-left:150px; margin-top:55px;"><a href="javascript:void(0)" class="dropbtn">UMS Navigation</a>
+       <div class="dropdown-content"  >
+       <a href="/HTML%20UMS/unavailable.html">Central Mail System</a>
+      <a href="/HTML%20UMS/unavailable.html">Change of Program</a>
+      <a href="/HTML%20UMS/seating%20plan.html">Examination System</a>
+      <a href="/HTML%20UMS/timetable%20.html">Time Table</a>
+      <a href="/HTML%20UMS/unavailable.html">Finance Management System</a>
+      <a href="/HTML%20UMS/unavailable.html">Health Services</a>
+      <a href="#">Learning Management System(LMS)</a>
+      <a href="/HTML%20UMS/unavailable.html">Library Management System</a>
+      <a href="/HTML%20UMS/unavailable.html">My Profile</a>
+      <a href="/HTML%20UMS/unavailable.html">Placement Services</a>
+      <a href="/HTML%20UMS/unavailable.html">Relationship Management System</a>
+      <a href="/HTML%20UMS/unavailable.html">Security and Safety</a>
+       </div>
+       </li>
+       <li class="dropdown" style="background-color:white; border-radius:7px; margin-top:55px;"><a href=""javascript:void(0)" class="dropbtn">Imp links</a>
+       <div class="dropdown-content">
+       <a href="/HTML%20UMS/unavailable.html">Apply Duplicate Id</a>
+       <a href="/HTML%20UMS/unavailable.html">Appointment System</a>
+       <a href="/HTML%20UMS/unavailable.html">Attendance Marking In Case Of late registration</a>
+       <a href="/HTML%20UMS/unavailable.html">B.Tech CSE</a>
+       <a href="/HTML%20UMS/unavailable.html">Capstone Internships</a>
+	<a href="/HTML%20UMS/unavailable.html">Compulsory Accomodation Details</a>
+	<a href="/HTML%20UMS/unavailable.html">Download Formats</a>
+	<a href="/HTML%20UMS/unavailable.html">Emergency Contact Numbers</a>
+	<a href="/HTML%20UMS/unavailable.html">Examination Instructions</a>
+	<a href="/HTML%20UMS/unavailable.html">Know Your Authorities</a>
+	<a href="/HTML%20UMS/unavailable.html">Lost and Found</a>	
+	<a href="/HTML%20UMS/unavailable.html">View Academic Calender</a>
+	
+       </div>
+       </li>
+       <li style="background-color:white; border-radius:7px; margin-top:55px;"><a href="/HTML%20UMS/changepass.html" class="dropbtn">Change password</a>
+       
+       <li style="float:right"><a href="/HTML%20UMS/login.html" class="dropbtn"><img src="logout.png" width="80px" height="30px"></a></li>
+       <li style="float:right"><a href="#"><img class="ums_logo" src="ums.png" height="70" width="260"></a></li>
+</ul>
+
+
+
+<!--right panel tabs-->
+<div class="tab" >
+<div style="float:right;">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Todays Timetable</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Fee Transactions</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Placements/internships</button>
+</div></div>
+
+<div id="London" cellspacing="5" class="tabcontent"  style="float:right;">
+	<table style="width:1200px;background-image: linear-gradient(-90deg,blue,royalblue,blue,royalblue); border:1px solid black;  border-radius:5px;">
+        <tr>
+	<th align="left" ><font size="5">Time</font></th>
+	<th align="center" ><font size="5">Course</font></th>
+	<th ><font size="5">Room No.</font></th>
+        <th align="center"><font size="5">Att. Status</font></th></tr>
+        </table>
+        <table style="width:1200px; background-color:silver; border-radius:10px; "><tr>
+        <td align="left" style="width:400px;">01-02 PM</td>
+	<td style="width:400px;">	INT108</td>
+        <td style="width:400px;">33-505</td>	
+	<td style="width:400px;">Upcoming</td></tr>
+        <tr>
+        <td >02-03 PM</td>
+	<td>INT108</td>
+        <td>33-505</td>	
+	<td>Upcoming</td></tr>
+        <tr>
+        <td>04-05 PM</td>
+	<td>CHE110</td>
+        <td>36-109</td>	
+	<td>Upcoming</td></tr>
+ 
+</table>
+</div>
+
+<div id="Paris" class="tabcontent"  style="float:right;">
+<table style="width:1200px; background-color:blue; border:1px solid black;  border-radius:5px;">
+        <tr>
+	<th align="left" ><font size="5">Fee Detail</font></th>
+	<th align="center" ><font size="5">Amount</font></th>
+	<th ><font size="5">date</font></th>
+        </table>
+	<table style="width:1200px; background-color:silver; border-radius:10px; "><tr>
+        <td>Online:875694568</td>
+        <td>44000.00</td>
+        <td>31 DEC 2022</td></tr>
+	<tr>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td></tr>
+	<tr>
+        <td>Tution Fee</td>
+        <td>44000.00</td>
+        <td>31 DEC 2019</td></tr>
+	<tr>
+        <td>Examination Fee</td>
+        <td>5000.00</td>
+        <td>31 DEC 2019</td></tr>
+	<tr>
+        <td>tution Fee</td>
+        <td>54000.00</td>
+        <td>31 DEC 2022</td></tr>
+</table>
+       
+</div>
+
+<div id="Tokyo" class="tabcontent"  style="float:right;">
+	<table style="width:1200px; background-color:blue; border:1px solid black;  border-radius:5px;">
+        <tr>
+	<th align="left" ><font size="5">Company </font></th>
+	<th align="center" ><font size="5">Batch</font></th>
+	<th ><font size="5">Stream</font></th>
+        <th align="center"><font size="5">Salary Package</font></th></tr>
+        </table>
+	<table style="width:1200px; background-color:silver; border-radius:10px; "><tr>
+        <td align="left" style="width:400px;height:250px;"></td>
+	<td style="width:400px;">	</td>
+        <td style="width:400px;"></td>	
+	<td style="width:400px;"></td></tr>
+	
+</table>
+</div>
+</div>
+
+<div id="a2" style=" float:right;  margin-right:0px;width:1220px;overflow-y:scroll;
+   height:275px;
+   display:block;">
+<table id="a3">
+<caption align="top" style="width:1224px; background-color:silver; margin-top:30px; font-size:30px;font:white;"><a href="/HTML%20UMS/attendence.html">My Courses and Attendence</a></caption>
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">CHE110</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:91%;">ENVIRONMENTAL CHEMISTRY</div>
+</div></td><tr></table>
+</tr>
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">CSE111</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:89%;" >ORIENTATION TO COMPUTING</div>
+</div></td><tr></table></tr>
+
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">CSE326</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:81%;">INTERNET PROGRAMMING LABORATORY</div>
+</div></td><tr></table>
+</tr>
+
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">ECE249</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:61%;">BASIC ELECTRICALAND ELECTRONICS ENGINEERING</div>
+</div></td><tr></table>
+</tr>
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">ECE279</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:85%;">BASIC ELECTRICALAND ELECTRONICS ENGINEERING LABORATORY</div>
+</div></td><tr></table>
+</tr>
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">MTH174</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:85%;">ENGINEERING MATHEMATICS</div>
+</div></td><tr></table>
+</tr>
+
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">PES318</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:88%;">SOFT SKILLS</div>
+</div></td><tr></table>
+</tr>
+
+
+<tr>
+<table id="a1" style="border:1px solid black;">
+<tr><td><font size="3">RKOC39A26<font><font size="1">INT108</font></td>
+<td>
+<div id="myProgress">
+  <div id="myBar" style="width:90%;">PYTHON PROGRAMMING</div>
+</div></td><tr></table>
+</tr>
+
+</table>
+</div>
+<div style="float:right; margin-left:60px; margin-top:20px; width:500px;height:240px;background-color:white;border:2px solid black; border-radius:13px;">
+<caption align="top"><CENTER><mark style="background-color:black;color:white; border-radius:4px;width=260px;font-size:25px;font-family:serif;">Teacher On Leave</CENTER></mark></caption>
+<table id="teacher" >
+<tr ><th style="width:166px;border:3px solid blue;border-radius:5px;">Name</th>
+<th style="width:166px;border:3px solid blue;border-radius:5px;">Course Code</th>
+<th style="width:166px;border:3px solid blue;border-radius:5px;">Duration</th>
+</tr>
+<tr><td style="border:1px solid black; border-radius:5px;">DR.Sandip Singh</td>
+<td style="border:1px solid black; border-radius:5px;">CHE110</td>
+<td style="border:1px solid black; border-radius:5px;">Full Day</td>
+</tr>
+</table>
+</div>
+
+
+
+<div style="float:right; margin-left:50px; margin-top:20px; width:600px;height:240px;background-color:white;border:2px solid black; border-radius:13px;">
+<caption align="top"><CENTER><mark style="background-color:black;color:white; border-radius:4px;width=260px;font-size:25px;font-family:serif;">My Messages</CENTER></mark></caption>
+<b><font color="blue">Important information regarding mandatory downloading of reading material/lecture notes</font></b><br/><br/>	The reading material/lecture notes for all the lectures scheduled till 31st March 2020 shall be made available to you via 
+LPU LIVE App and UMS. Students are required to continue their studies by downloading the notes daily and keep checking the UMS/LPU LIVE App on hourly basis for regular updates regarding the same.
+ Based on the reading material/lecture notes shared by your faculty, you shall also be given assignments shortly
+</div>
+
+
+
+
+
+
+<!--left menu-->
+
+<table cellspacing="2" style="background-color: silver; width: 250px; ">
+<tr><td >
+
+<div  style="float:left ; ">
+
+
+    <tr><th style="width: 195px;" ><font size="4">Welcome</font></th></tr>
+    <tr><th style="width: 195px;" > <font size="4"> Student</font></th></tr>
+    <tr><th style="width: 195px;" > <font size="4"> 12221381</font></th></tr>
+    <tr><img src="person7.jpg" height="250" width="250"></div></tr>
+
+
+</td>
+</tr>
+<table id="tp" cellspacing="9" style="background-image: linear-gradient(-45deg,royalblue,blue,royalblue); width: 250px; color:white;">
+<tr><td><li>Roll No.- RKOC39A26</li></td></tr>
+<tr><td><li>Group-1 Section- KOC39</li></td></tr>
+<tr><td><li>Programme- P132::B.Tech.(Computer Science and Engineering)</li></td></tr>
+<tr><td><li>Books Issued from Library- 0</li></td></tr>
+<tr><td><li>Seating Plan- 3</li></td></tr>
+<tr><td><li>Security Information Brochure</li>
+
+</ul>
+</td></tr>
+</table>
+
+<table cellspacing="2" style="background-color: White; width: 250px; color:Black;margin-top:20px;">
+
+<tr><td><p><center>MONDAY, 6 DEC 2022</center></br>
+Treating Dark Elbows and Knees Naturally - Rub lime juice over the discoloured area and leave for 15-20 minutes. 
+Soak a towel in hot water and scrub firmly. Repeat this for 2 weeks</p></td></tr>
+<tr></tr>
+<tr><img src="healthtip.jpg" height="50" width="250"></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<div class="tab1">
+  <button class="tablinks1" onclick="openCity1(event, 'London1')" id="defaultOpen">Academic</button>
+  <button class="tablinks1" onclick="openCity1(event, 'Paris1')">Administrative</button>
+  <button class="tablinks1" onclick="openCity1(event, 'Tokyo1')">Sports/Cultural</button>
+  <button class="tablinks1" onclick="openCity(event, 'Tokyo1')">Examination</button>
+  <button class="tablinks1" onclick="openCity(event, 'Tokyo1')">Placement</button>
+</div>
+
+<div id="London1" class="tabcontent1">
+<p>
+ <b> Panel discussion with IBM leaders on 'PINK TAX' facilitated by We-ACE (6/12/2022 4:23:23 PM)	</b><br/>
+
+ 
+ Dear All,<br>
+ 
+ It’s beyond a shadow of doubt that women are still substantially underpaid and sometimes even unpaid for all that they do. Add to it the day-to-day purchases being pricier for them than men.
+ 
+ Seems unfair, doesn’t it?
+ 
+ This is what is called the ‘pink tax’—women paying more for similar and often identical products and services that men use.
+ 
+ Join the leaders as they demystify pink tax, discuss why is it more expensive to be a woman, how the pink tax works and affects women’s finances, and more. A play on the archaic idea of ‘pink is for girls and blue for boys’, this discriminatory market practice, over a period of a woman’s lifetime, can have a significant financial impact.  
+ 
+ In an effort to support your students' continued learning,  We-ACE is facilitating panel discussion with professionals from IBM & Founder of Salt mysaltApp on 08th of Dec. at 4:30-5:30 PM.   
+ 
+ This would be a great opportunity for students to learn about another aspect of Diversity, Equity & Inclusion in the current scenario!  
+ 
+ Link to Register: https://we-ace.com/events/detail/571283-demystifying-pink-tax-why-is-it-more-expensive-to-be-a-woman/  
+ 
+ Registration Fee: NIL
+ 
+ Uploaded By:
+ Vaneet K. Arora
+ Division of Industry Interface
+ *This is computer generated notice, not requiring signature
+ 
+
+
+
+<b>Students should keep themselves regularly updated through UMS for exact schedule.</b><br/>
+
+The students are further advised to utilise the time of summer break for efficient preparation of their examination. The University staff/faculty members shall be available via LPU-UMS and LPU-LIVE App for all kinds of assistance required by the students.
+
+Uploaded By:<br/>
+Office of HOD<br/>
+Division of Academic Affairs<br/>
+*This is computer generated notice, not requiring signature<br/>
+  <b> Online Access of Economic and Political Weekly Research Foundation India Time Series (EPWRFITS)   (4/12/2022 3:56:13 PM)	</b><br/>
+All Students/researchers are hereby informed that LPU has started subscribing EPWRFITS. The Economic and Political Weekly Research Foundation India Time Series (EPWRFITS) is an interactive and unique online database with comprehensive coverage of Indian economy covering over 50,000 variables capsule in 20 below mentioned module.<br/>
+
+National Accounts Statistics India, Domestic Products of States of India, Price Indices, Agricultural Statistics, Wage Rates in Rural India, Annual Survey of Industries, Industrial Production Series, Statistics of Mines, Mineral Statistics, Power Sector, External Sector, Monetary Statistics, Financial Markets, Banking Statistics, Insurance Statistics, Finances of the Government of India, Finances of State Governments, Combined Government Finances, Health Statistics, Educational Statistics.<br/>
+
+
+Kindly visit: http://www.epwrfits.in/<br/>
+
+ 
+
+Use following credential for login:<br/>
+Username: lpu<br/>
+Password: tpt96t7LPU<br/>
+
+For more information, please visit: http://lpu.in/academics/libraries<br/>
+
+Uploaded By:<br/>
+Office of HOD<br/>
+School of Libraries<br/>
+*This is computer generated notice, not requiring signature<br/>
+   <b></br>Trail access of Harvard Business Review Ascend (HBR Ascend)   (3/12/2022 3:55:22 PM)	</b><br/>
+All students are informed that trail access of Harvard Business Review Ascend (HBR Ascend) have been activated till 31st June 2020.<br/>
+
+There are almost 12 million graduates that enter the workforce every year and nearly 80% of these are unemployable by organisations”. Harvard editorial team developed Harvard Business Review Ascend (HBR Ascend) a premium collection from Harvard Business Publishing. HBR Ascend is specifically for individual contributors in the early stages of their career as well as college students who will soon be joining the workforce. HBR Ascend will provide content to address the needs of younger professionals, including how to find their dream job, how to perform more effectively in the workplace, and how to get ahead in their careers. Designed to build soft-skills, HBR Ascend features articles, videos, podcasts, sketch stories and infographics to give students real-world advice from industry experts.<br/>
+
+ 
+
+Please use the following link for access:<br/>
+
+https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=ns212034&groupid=main&site=hbrascend&return=y<br/>
+
+ 
+
+USER ID: lovelyuniv<br/>
+
+PASSWORD: Library@2004<br/>
+
+Uploaded By:<br/>
+Office of HOD<br/>
+School of Libraries<br/>
+*This is computer generated notice, not requiring signature<br/>
+   Trail access for Harvard Business Review Press eBooks Collection   (4/6/2020 3:53:28 PM)<br/>	
+All students are informed that trail access of Harvard Business Review Press eBooks Collection has been activated till 31st June 2020.<br/>
+
+Harvard Business Review Press is a leading global book publisher and a division of the Harvard Business Review Group. HBR Press publishes for the general, professional and academic markets on the topics of leadership, strategy, innovation, technology and management. The Harvard Business Review Press eBook Collection includes approx. 600 plus titles suitable for readers at the undergraduate and graduate levels.<br/>
+
+Please use the following link for access:<br/>
+
+ 
+
+https://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=ns212034&groupid=main&profile=ehost&defaultdb=e076tww<br/>
+
+ 
+
+USER ID: lovelyuniv<br/>
+
+PASSWORD: Library@2004 <br/>
+
+Uploaded By:<br/>
+Office of HOD<br/>
+School of Libraries<br/>
+*This is computer generated notice, not requiring signature<br/>
+</p>
+</div>
+
+<div id="Paris1" class="tabcontent1">
+  
+  <p>
+<b>Updated Lost & Found UMS Interface' released for students in UMS   (2/12/2022 5:26:35 PM)</b><br/>	
+Dear Students,<br/>	
+
+ 
+
+This is to inform you that University 'Lost & Found Policy' has been developed and the Supporting UMS Interface portal is LIVE from Today (4-Apr-2020).<br/>	
+
+ 
+
+The main aim of the Lost and Found Policy is to ensure all lost items are returned to their rightful owner in a timely and efficient manner.<br/>	
+
+ 
+
+The Pathway is as mentioned below for Accessing the said interface in UMS.<br/>	
+
+Navigation : UMS Navigations --> Administrative Tools --> Lost & Found - Claim by Owner (Accessible by Students of LPU)<br/>	
+
+ 
+
+We expect efficient usage of updated Lost & Found UMS Interface from all students for following the compliance mentioned in University 'Lost & Found Policy'.<br/>	
+
+
+ 
+
+Uploaded By:<br/>	
+Office of HOD<br/>	
+Division of Administration<br/>	
+*This is computer generated notice, not requiring signature<br/>	
+</p> 
+</div>
+
+<div id="Tokyo1" class="tabcontent1">
+ 
+  <p>
+    <b>TAKING MOBILES INTO EXAMINATION ROOMS (Dec 02,2022 5:26:35 PM)</b><br/>	
+   
+    All students are again advised, not to carry their mobiles into the Examination rooms, as it is against the University rules and regulations to bring mobiles into the Examination rooms.
+
+ 
+
+ 
+
+    Uploaded By:
+     
+    Brig. Gurjit Singh Dhillon
+    Division of Security and Safety
+    *This is computer generated notice, not requiring signature	
+    </p>
+   </div>
+
+<script>
+function openCity1(evt, cityName) {
+  var i, tabcontent1, tablinks1;
+  tabcontent1 = document.getElementsByClassName("tabcontent1");
+  for (i = 0; i < tabcontent1.length; i++) {
+    tabcontent1[i].style.display = "none";
+  }
+  tablinks1 = document.getElementsByClassName("tablinks1");
+  for (i = 0; i < tablinks1.length; i++) {
+    tablinks1[i].className = tablinks1[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+
+
+
+
+
+
+<!--Javascript-->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
+
+
+
+
+
+                                                  <!-- THANK YOU  -->
